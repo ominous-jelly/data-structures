@@ -10,6 +10,12 @@ Feel free to use/clone/alter/ignore/suggest. That's what the repo is public for 
 
 1. Nodes
 
-## In progress scripts
+2. Linked Lists
 
-1. Linked Lists
+3. Doubly Linked Lists
+
+
+
+## Up Next
+
+1. Queues
