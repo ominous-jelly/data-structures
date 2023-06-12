@@ -1,0 +1,37 @@
+An important thing to keep in mind when it comes to writing algorithms is
+complexity. There are two kinds of complexity that need to be kept in mind.
+
+  1. Time complexity: How long is this going to take?
+  2. Space complexity: How much space is this going to take up? (in memory)
+
+TIME COMPLEXITY
+
+Annotated with the Big-O notation, which shows how the operation scales with 
+input size.
+  
+  > O(1) is constant time the simplest form of complexity. With a time 
+    complexity of O(1), then the algorithm is going to be the same regardless
+    of the input size.
+
+  > O(log n) is logarithmic time. This is when the input size gets reduced with
+    every operation. This means that not every single value of the input data
+    needs to be looked at. (common in binary tree algorithms)
+
+  > O(n) is linear time. This is the best possible outcome when the algorithm
+    needs to look at all values in the input.
+
+  > O(n log n) is quasilinear time. This is when each operation in the input
+    data has its own logarithmic time complexity. For example: It can be when 
+    each value in the data1 (O(n)) use the binary search (O(log n)) to search 
+    the same value in data2.
+
+  > O(n^2) is quadratic time. This is when the algorithm needs to perform a
+    linear operation on each value of the input data. For example: doing a
+    for i in data1: for y in data2: print(x, y)
+
+  > O(2^n) is exponential time. This is when the growth doubles for each value
+    in the input data.
+
+  > O(n!) is factorial time. This is when the time grows factorially with each
+    addition to the input data size. This grows incredibly fast, even for small
+    inputs. An example of this is finding all permutations of n (Heap's algorithm)

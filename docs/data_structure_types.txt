@@ -1,0 +1,8 @@
+Linked lists are a "chain" of "nodes". They are implemented as a class.
+The most important part of a linked node is the "Head Node". From here
+it will be possible to continue down the chain of nodes all the way to
+the tail.
+
+Doubly linked lists are similiar to linked lists except that they have
+a value and TWO pointers. One is pointing to the next node, the other to
+the previous node. 

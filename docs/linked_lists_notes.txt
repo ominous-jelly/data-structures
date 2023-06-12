@@ -1,8 +1,0 @@
-Linked lists are a "chain" of "nodes". They are implemented as a class.
-
-Class attributes and methods should include:
-  1. Head Node
-  2. Get Head Node (method)
-  3. Insert Beginning (method)
-  4. Remove Node (method)
-  5. Get Value (method)
